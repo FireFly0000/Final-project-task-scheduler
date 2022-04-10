@@ -21,7 +21,7 @@
  - Outputs:
    * Priority (int)
    * Due Date (string) 
- - We will also rely on github work flow and unit testing in this project.
+ - We will also rely on agile work flow and unit testing in this project.
   
 # Class Diagram
 This class diagram included 2 design patterns composite and strategy. The composite pattern is used to create individual tasks and list of tasks that can contain tasks. The list of tasks can also represent larger tasks that contain smaller subtasks. However a list of tasks doesn't have a certain type because it can contain different types of tasks. Types of tasks will be limited to three types personal, work and study. The strategy pattern is used to filter and print out certain tasks based on their priority, types and due date. 
